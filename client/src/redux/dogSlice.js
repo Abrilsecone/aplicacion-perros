@@ -1,6 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
+axios.defaults.baseURL = "http://localhost:3001";
+
 const defaultOrder = {
   ALPHABETIC: 'ASC',
 };
