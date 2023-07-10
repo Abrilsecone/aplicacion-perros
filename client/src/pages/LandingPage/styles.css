@@ -1,0 +1,109 @@
+.LandingContainer {
+	background-image: url("../../../public/assets/retrato-lindo-perro-alegre-lengua-fuera-posando-aislado-sobre-fondo-blanco-estudio.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+
+.Intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+    background-color: rgba(93, 43, 10, 0);
+	font-family: "Lobster", serif;
+	backdrop-filter: blur(1px);
+	color: #000000;
+	font-size: 25px;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 18px 20px 8px 20px;
+	border-radius: 55px;
+  }
+  
+
+.Intro h1 {
+	margin: 10px 10px 20px;
+}
+
+.LaunchButton {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+	font-family: "Epilogue";
+	color: #000000;
+	transition: all 0.3s;
+	position: relative;
+}
+
+.LaunchButton span {
+	transition: all 0.3s;
+}
+
+.LaunchButton::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(0, 0, 0, 0.5);
+	border-bottom-color: rgba(0, 0, 0, 0.5);
+	transform: scale(0.1, 1);
+}
+
+.LaunchButton:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+
+.LaunchButton:hover span {
+	letter-spacing: 2px;
+}
+
+.LaunchButton::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(0, 0, 0, 0.17);
+}
+
+.LaunchButton:hover::after {
+	opacity: 0;
+	transform: scale(0.1, 1);
+}
+
+.SocialLink {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.SocialLink a {
+	padding: 20px 20px 0px 20px;
+}
+
+.SocialLink a:hover {
+	transform: scale(1.2);
+}
+
+.SocialLink svg {
+	color: rgba(18, 15, 15, 0.8);
+}

@@ -1,0 +1,102 @@
+PARA EL EXAMEN:
+
+
+Landing Page:
+
+Bienvenida a CanineConnect.
+Diseño atractivo y moderno.
+Logotipo y título principal.
+Botón "START" para acceder a la sección de razas de perros.
+Enlaces a redes sociales (LinkedIn y GitHub).
+------------------------------------------------------
+Home Page:
+
+Página de inicio cautivadora y fácil de navegar.
+Barra de navegación para explorar secciones y buscar.
+Sección principal con elementos y características destacados.
+Diseño pensado en la comodidad y estética.
+Pie de página con enlaces importantes y opciones útiles.
+------------------------------------------------------
+Detail Page:
+
+Información detallada sobre razas de perros.
+Imagen representativa de la raza.
+Datos importantes: nombre, propósito de cría, peso, altura y esperanza de vida.
+Temperamento y rasgos de personalidad.
+Opción de eliminar la raza de la lista.
+Botón para regresar a la lista de razas.
+----------------------------------------------------------
+Form Page:
+
+Página para crear una nueva raza de perro.
+Formulario con campos como nombre, peso, altura, esperanza de vida, temperamentos y imagen.
+Validación en tiempo real y mensajes de error.
+Selección de temperamentos y eliminación de los seleccionados.
+Vista previa de la imagen seleccionada.
+Generación de imagen aleatoria.
+Envío de datos al servidor y retroalimentación de éxito o error.
+
+____________________________________________________________________________
+____________________________________________________________________________
+
+LANDING PAGE:
+
+En el centro de la página, te recibirán nuestro logotipo y el título principal: "CanineConnect". Esto representa nuestra plataforma dedicada a conectar a los amantes de los perros de todo el mundo. Nuestro objetivo es brindarte una experiencia única y emocionante.
+
+Para comenzar esta aventura, simplemente haz clic en el botón "START" que encontrarás en nuestra página de inicio. Serás redirigido a la sección de razas de perros, donde podrás explorar una amplia variedad de razas y descubrir sus características únicas. Te ofrecemos una experiencia informativa y divertida para que aprendas más sobre tus amigos de cuatro patas.
+
+Además, queremos mantenerte conectado con nuestra comunidad. En la parte inferior de la página, encontrarás enlaces a nuestras redes sociales. Puedes seguirnos en LinkedIn y GitHub para estar al tanto de las últimas novedades y ser parte de la conversación.
+
+CanineConnect es el lugar perfecto para todos los amantes de los perros. Estamos comprometidos en brindarte una experiencia de calidad, basada en nuestra pasión y conocimiento sobre los perros. ¡Únete a nuestra comunidad y descubre el maravilloso mundo canino!
+
+Recuerda, CanineConnect es creado con amor desde Argentina. ¡Esperamos que disfrutes de nuestra página!
+
+
+HOME PAGE:
+
+
+¡Bienvenido a nuestra página de inicio! Aquí encontrarás todo lo que necesitas para sumergirte en el mundo de tus sueños. Nuestra página principal está diseñada para brindarte una experiencia cautivadora y fácil de navegar.
+
+En la parte superior, encontrarás nuestra barra de navegación, que te permitirá explorar diferentes secciones y acceder a funciones de búsqueda para encontrar lo que necesitas de manera rápida y sencilla.
+
+La sección principal está compuesta por un encabezado impactante que capturará tu atención de inmediato. Te ofrecemos una selección cuidadosamente curada de elementos y características que te ayudarán a descubrir y explorar todo lo que nuestro sitio tiene para ofrecer.
+
+Nuestra página principal está diseñada pensando en la comodidad y la estética. Cada elemento ha sido cuidadosamente ubicado para brindarte una experiencia visualmente agradable y facilitar la interacción con nuestro contenido.
+
+En la parte inferior de la página, encontrarás nuestro pie de página, que contiene enlaces importantes, información de contacto y otras opciones útiles para que puedas navegar y acceder a más recursos.
+
+En resumen, nuestra página de inicio es el punto de partida perfecto para explorar todo lo que tenemos preparado para ti. ¡Disfruta de una experiencia inolvidable mientras descubres nuevas posibilidades y aprovechas al máximo tu tiempo aquí!
+
+
+DETAIL PAGE 
+En la página de detalles de perro, podrás explorar información detallada sobre diferentes razas de perros. Aquí encontrarás todo lo que necesitas saber sobre la raza seleccionada.
+
+En la parte superior, verás una imagen representativa de la raza, que te dará una idea visual de cómo lucen estos adorables compañeros. Si no hay una imagen disponible, se mostrará una imagen de marcador de posición.
+
+A continuación, encontrarás datos importantes sobre la raza. Esto incluye su nombre, para que puedas identificarla fácilmente. También conocerás su propósito de cría, es decir, para qué fueron criados originalmente.
+
+Además, se te proporcionará información sobre el peso promedio de la raza. Si existen variaciones en el rango de peso, se indicarán los valores mínimo y máximo. De manera similar, se mostrará la altura promedio de la raza, con el rango si corresponde.
+
+También se te informará sobre la esperanza de vida de la raza, es decir, cuánto tiempo pueden vivir en promedio. Esto te dará una idea de la longevidad de la raza.
+
+Otro aspecto importante que se abordará es el temperamento de la raza. Se destacarán las características y rasgos de personalidad comunes asociados con esta raza en particular. Estos detalles te ayudarán a comprender mejor su comportamiento y necesidades.
+
+Si la raza es proveniente de nuestra base de datos (DB), tendrás la opción de eliminarla de tu lista. Un icono de basura estará presente y, si haces clic en él, se te pedirá confirmación antes de eliminarla.
+
+Al final de la página de detalles de perro, encontrarás un botón que te permitirá regresar a la lista de razas de perros. Si deseas explorar más razas, simplemente haz clic en este botón y serás redirigido.
+
+¡Disfruta de la experiencia de descubrir más sobre estas hermosas criaturas y encuentra la raza de perro perfecta para ti!
+
+
+FORM PAGE
+El componente "CreateNew" es una página que permite al usuario crear una nueva raza de perro. La página incluye un formulario con varios campos que el usuario debe completar para crear la raza. Algunos de los campos incluyen el nombre de la raza, su peso, altura, esperanza de vida, temperamentos y una imagen opcional.
+
+El formulario está diseñado de manera intuitiva, con etiquetas descriptivas para cada campo y validación en tiempo real para asegurar que los datos ingresados sean correctos. Por ejemplo, si el usuario ingresa un nombre inválido o no completa algún campo obligatorio, se mostrarán mensajes de error indicando los problemas.
+
+Además, el formulario permite al usuario seleccionar hasta seis temperamentos para la raza, proporcionando una lista desplegable de opciones predefinidas. El usuario también puede eliminar temperamentos seleccionados haciendo clic en una "x" junto a cada uno.
+
+Para ayudar al usuario a visualizar cómo se verá la raza, se muestra una vista previa de la imagen seleccionada o una imagen predeterminada si no se ha seleccionado una específica. El usuario puede generar una imagen aleatoria haciendo clic en el botón "Random".
+
+Una vez que el usuario completa y envía el formulario, se realiza una validación final y se envían los datos al servidor para crear la nueva raza de perro. Si la operación es exitosa, el usuario será redirigido a la página principal. Si hay algún problema durante el proceso, se mostrará un mensaje de error correspondiente.
+
+En resumen, la página "CreateNew" brinda una interfaz interactiva y fácil de usar para que los usuarios creen nuevas razas de perros, asegurando que se ingresen datos válidos y proporcionando retroalimentación en tiempo real para mejorar la experiencia del usuario.
